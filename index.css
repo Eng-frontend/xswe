@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.container{
+  perspective: 10000px;
+}
+@media (max-width:768px)and (max-height:800px) {
+  .container .parent{
+    background-color: red;
+    position: relative;
+    width:75%;
+    height:750px;
+    margin-top:25px;
+    margin-bottom:25px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    transform-style: preserve-3d;
+    transition:transform 3s ;
+    -webkit-transition:transform 3s ;
+    -moz-transition:transform 3s ;
+    -ms-transition:transform 3s ;
+    -o-transition:transform 3s ;
+}  
+}
+
+
